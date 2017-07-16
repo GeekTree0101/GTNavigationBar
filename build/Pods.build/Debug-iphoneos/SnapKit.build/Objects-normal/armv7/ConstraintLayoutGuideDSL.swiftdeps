@@ -1,0 +1,94 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConstraintLayoutGuideDSL"
+provides-nominal:
+- "V7SnapKit24ConstraintLayoutGuideDSL"
+provides-member:
+- ["V7SnapKit24ConstraintLayoutGuideDSL", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Constraint"
+- "ConstraintAttributesDSL"
+- "ConstraintLayoutGuide"
+- "ConstraintLayoutGuideDSL"
+- "ConstraintMaker"
+- "Void"
+depends-member:
+- !private ["Ps9AnyObject", "makeConstraints"]
+- !private ["Ps9AnyObject", "prepareConstraints"]
+- !private ["Ps9AnyObject", "remakeConstraints"]
+- !private ["Ps9AnyObject", "removeConstraints"]
+- !private ["Ps9AnyObject", "updateConstraints"]
+- !private ["P7SnapKit23ConstraintAttributesDSL", "ConstraintMaker"]
+- !private ["P7SnapKit23ConstraintAttributesDSL", "guide"]
+- ["P7SnapKit23ConstraintAttributesDSL", "label"]
+- ["P7SnapKit23ConstraintAttributesDSL", "setLabel"]
+- ["P7SnapKit23ConstraintAttributesDSL", "target"]
+- ["P7SnapKit23ConstraintAttributesDSL", ""]
+- !private ["P7SnapKit28ConstraintBasicAttributesDSL", "ConstraintMaker"]
+- !private ["P7SnapKit28ConstraintBasicAttributesDSL", "guide"]
+- ["P7SnapKit28ConstraintBasicAttributesDSL", "label"]
+- ["P7SnapKit28ConstraintBasicAttributesDSL", "setLabel"]
+- ["P7SnapKit28ConstraintBasicAttributesDSL", "target"]
+- ["P7SnapKit28ConstraintBasicAttributesDSL", ""]
+- !private ["P7SnapKit13ConstraintDSL", "ConstraintMaker"]
+- !private ["P7SnapKit13ConstraintDSL", "guide"]
+- ["P7SnapKit13ConstraintDSL", "label"]
+- ["P7SnapKit13ConstraintDSL", "setLabel"]
+- ["P7SnapKit13ConstraintDSL", "target"]
+- ["P7SnapKit13ConstraintDSL", ""]
+- ["V7SnapKit24ConstraintLayoutGuideDSL", "AnyObject"]
+- ["V7SnapKit24ConstraintLayoutGuideDSL", "Constraint"]
+- ["V7SnapKit24ConstraintLayoutGuideDSL", "ConstraintLayoutGuide"]
+- ["V7SnapKit24ConstraintLayoutGuideDSL", "ConstraintMaker"]
+- ["V7SnapKit24ConstraintLayoutGuideDSL", "Void"]
+- ["V7SnapKit24ConstraintLayoutGuideDSL", "deinit"]
+- ["V7SnapKit24ConstraintLayoutGuideDSL", "guide"]
+- ["V7SnapKit24ConstraintLayoutGuideDSL", "init"]
+- ["V7SnapKit24ConstraintLayoutGuideDSL", "label"]
+- ["V7SnapKit24ConstraintLayoutGuideDSL", "makeConstraints"]
+- ["V7SnapKit24ConstraintLayoutGuideDSL", "prepareConstraints"]
+- ["V7SnapKit24ConstraintLayoutGuideDSL", "remakeConstraints"]
+- ["V7SnapKit24ConstraintLayoutGuideDSL", "removeConstraints"]
+- ["V7SnapKit24ConstraintLayoutGuideDSL", "setLabel"]
+- ["V7SnapKit24ConstraintLayoutGuideDSL", "target"]
+- ["V7SnapKit24ConstraintLayoutGuideDSL", "updateConstraints"]
+- !private ["C7SnapKit15ConstraintMaker", "makeConstraints"]
+- !private ["C7SnapKit15ConstraintMaker", "prepareConstraints"]
+- !private ["C7SnapKit15ConstraintMaker", "remakeConstraints"]
+- !private ["C7SnapKit15ConstraintMaker", "removeConstraints"]
+- !private ["C7SnapKit15ConstraintMaker", "updateConstraints"]
+- !private ["CSo13UILayoutGuide", "deinit"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "P7SnapKit23ConstraintAttributesDSL"
+- "P7SnapKit28ConstraintBasicAttributesDSL"
+- "P7SnapKit13ConstraintDSL"
+- "V7SnapKit24ConstraintLayoutGuideDSL"
+- !private "C7SnapKit15ConstraintMaker"
+- !private "CSo13UILayoutGuide"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Pods.build/Debug-iphoneos/SnapKit.build/unextended-module.modulemap"
+- "/Users/vingle/Desktop/vingle-ios/Pods/Fuzi/libxml2/module.modulemap"
+interface-hash: "7d15bc579983142e85e01a087d1aa632"

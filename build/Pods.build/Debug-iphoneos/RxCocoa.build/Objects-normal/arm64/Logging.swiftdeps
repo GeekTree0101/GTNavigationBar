@@ -1,0 +1,54 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Logging"
+provides-nominal:
+- "V7RxCocoa7Logging"
+provides-member:
+- ["V7RxCocoa7Logging", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Bool"
+- "BooleanLiteralType"
+- "Logging"
+- "URLRequest"
+depends-member:
+- ["V7RxCocoa7Logging", "Bool"]
+- ["V7RxCocoa7Logging", "LogURLRequest"]
+- ["V7RxCocoa7Logging", "URLRequest"]
+- ["V7RxCocoa7Logging", "URLRequests"]
+- ["V7RxCocoa7Logging", "init"]
+depends-nominal:
+- "V7RxCocoa7Logging"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Users/vingle/Desktop/vingle-ios/Pods/Fuzi/libxml2/module.modulemap"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "2bc991f8e40d7824ea13c727e7c234e5"

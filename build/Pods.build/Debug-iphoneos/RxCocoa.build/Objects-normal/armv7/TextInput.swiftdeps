@@ -1,0 +1,70 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TextInput"
+provides-nominal:
+- "V7RxCocoa9TextInput"
+provides-member:
+- ["V7RxCocoa9TextInput", ""]
+- ["V7RxSwift8Reactive", ""]
+- ["V7RxSwift8Reactive", "textInput"]
+- ["V7RxSwift8Reactive", "textInput"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "ControlProperty"
+- "Reactive"
+- "String"
+- "TextInput"
+- "UITextField"
+- "UITextInput"
+- "UITextView"
+depends-member:
+- ["V7RxSwift8Reactive", "Base"]
+- ["V7RxSwift8Reactive", "TextInput"]
+- ["V7RxSwift8Reactive", "UITextField"]
+- ["V7RxSwift8Reactive", "UITextView"]
+- !private ["V7RxSwift8Reactive", "base"]
+- !private ["V7RxSwift8Reactive", "text"]
+- ["V7RxSwift8Reactive", "textInput"]
+- ["V7RxCocoa9TextInput", "Base"]
+- ["V7RxCocoa9TextInput", "ControlProperty"]
+- ["V7RxCocoa9TextInput", "String"]
+- ["V7RxCocoa9TextInput", "base"]
+- ["V7RxCocoa9TextInput", "init"]
+- ["V7RxCocoa9TextInput", "text"]
+depends-nominal:
+- "V7RxSwift8Reactive"
+- "V7RxCocoa9TextInput"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Users/vingle/Desktop/vingle-ios/Pods/Fuzi/libxml2/module.modulemap"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "a96238935070071fae06483e16f9ace1"

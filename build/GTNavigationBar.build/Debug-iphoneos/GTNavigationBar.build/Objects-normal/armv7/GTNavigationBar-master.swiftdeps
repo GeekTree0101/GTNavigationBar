@@ -1,0 +1,10 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "ce0f87b80ff75343eb0f4ae60a7ae208"
+build_time: [553489209, 383271000]
+inputs:
+  "/Users/vingle/Desktop/GTNavigationBar/GTNavigationBar/Cat.swift": [553406210, 0]
+  "/Users/vingle/Desktop/GTNavigationBar/GTNavigationBar/ViewController.swift": [553429332, 0]
+  "/Users/vingle/Desktop/GTNavigationBar/GTNavigationBar/testTableViewCell.swift": [553420456, 0]
+  "/Users/vingle/Desktop/GTNavigationBar/GTNavigationBar/AppDelegate.swift": [553424274, 0]
+  "/Users/vingle/Desktop/GTNavigationBar/GTNavigationBar/HackNavigation.swift": [553431181, 0]
+  "/Users/vingle/Desktop/GTNavigationBar/GTNavigationBar/CatViewController.swift": [9223372036854775807, 0]

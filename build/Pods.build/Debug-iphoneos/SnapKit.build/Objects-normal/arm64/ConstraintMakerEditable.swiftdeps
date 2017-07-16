@@ -1,0 +1,99 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConstraintMakerEditable"
+provides-nominal:
+- "C7SnapKit23ConstraintMakerEditable"
+provides-member:
+- ["C7SnapKit23ConstraintMakerEditable", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "/"
+- "AssignmentPrecedence"
+- "ConstraintInsetTarget"
+- "ConstraintMakerEditable"
+- "ConstraintMakerPriortizable"
+- "ConstraintMultiplierTarget"
+- "ConstraintOffsetTarget"
+depends-member:
+- !private ["Ps9AnyObject", "constant"]
+- !private ["Ps9AnyObject", "description"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "multipliedBy"]
+- !private ["Ps9AnyObject", "multiplier"]
+- ["Ps9AnyObject", ""]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "constraintInsetTargetValue"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "constraintOffsetTargetValue"]
+- !private ["C7SnapKit21ConstraintDescription", "constant"]
+- !private ["C7SnapKit21ConstraintDescription", "multiplier"]
+- !private ["P7SnapKit21ConstraintInsetTarget", "constraintInsetTargetValue"]
+- ["C7SnapKit23ConstraintMakerEditable", "ConstraintInsetTarget"]
+- ["C7SnapKit23ConstraintMakerEditable", "ConstraintMakerEditable"]
+- ["C7SnapKit23ConstraintMakerEditable", "ConstraintMultiplierTarget"]
+- ["C7SnapKit23ConstraintMakerEditable", "ConstraintOffsetTarget"]
+- ["C7SnapKit23ConstraintMakerEditable", "deinit"]
+- !private ["C7SnapKit23ConstraintMakerEditable", "description"]
+- ["C7SnapKit23ConstraintMakerEditable", "dividedBy"]
+- ["C7SnapKit23ConstraintMakerEditable", "init"]
+- ["C7SnapKit23ConstraintMakerEditable", "inset"]
+- ["C7SnapKit23ConstraintMakerEditable", "multipliedBy"]
+- ["C7SnapKit23ConstraintMakerEditable", "offset"]
+- ["C7SnapKit26ConstraintMakerFinalizable", "ConstraintInsetTarget"]
+- ["C7SnapKit26ConstraintMakerFinalizable", "ConstraintMakerEditable"]
+- ["C7SnapKit26ConstraintMakerFinalizable", "ConstraintMultiplierTarget"]
+- ["C7SnapKit26ConstraintMakerFinalizable", "ConstraintOffsetTarget"]
+- !private ["C7SnapKit26ConstraintMakerFinalizable", "description"]
+- ["C7SnapKit26ConstraintMakerFinalizable", "dividedBy"]
+- ["C7SnapKit26ConstraintMakerFinalizable", "init"]
+- ["C7SnapKit26ConstraintMakerFinalizable", "inset"]
+- ["C7SnapKit26ConstraintMakerFinalizable", "multipliedBy"]
+- ["C7SnapKit26ConstraintMakerFinalizable", "offset"]
+- ["C7SnapKit27ConstraintMakerPriortizable", "ConstraintInsetTarget"]
+- ["C7SnapKit27ConstraintMakerPriortizable", "ConstraintMakerEditable"]
+- ["C7SnapKit27ConstraintMakerPriortizable", "ConstraintMultiplierTarget"]
+- ["C7SnapKit27ConstraintMakerPriortizable", "ConstraintOffsetTarget"]
+- !private ["C7SnapKit27ConstraintMakerPriortizable", "description"]
+- ["C7SnapKit27ConstraintMakerPriortizable", "dividedBy"]
+- ["C7SnapKit27ConstraintMakerPriortizable", "init"]
+- ["C7SnapKit27ConstraintMakerPriortizable", "inset"]
+- ["C7SnapKit27ConstraintMakerPriortizable", "multipliedBy"]
+- ["C7SnapKit27ConstraintMakerPriortizable", "offset"]
+- ["C7SnapKit27ConstraintMakerPriortizable", ""]
+- !private ["P7SnapKit26ConstraintMultiplierTarget", "constraintMultiplierTargetValue"]
+- !private ["P7SnapKit22ConstraintOffsetTarget", "constraintOffsetTargetValue"]
+- !private ["VSC12UIEdgeInsets", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "V12CoreGraphics7CGFloat"
+- !private "P7SnapKit24ConstraintConstantTarget"
+- !private "C7SnapKit21ConstraintDescription"
+- !private "P7SnapKit21ConstraintInsetTarget"
+- "C7SnapKit23ConstraintMakerEditable"
+- "C7SnapKit26ConstraintMakerFinalizable"
+- "C7SnapKit27ConstraintMakerPriortizable"
+- !private "P7SnapKit26ConstraintMultiplierTarget"
+- !private "P7SnapKit22ConstraintOffsetTarget"
+- !private "VSC12UIEdgeInsets"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Pods.build/Debug-iphoneos/SnapKit.build/unextended-module.modulemap"
+- "/Users/vingle/Desktop/vingle-ios/Pods/Fuzi/libxml2/module.modulemap"
+interface-hash: "fb2d5164c562aed6935c9f49b0994bcc"

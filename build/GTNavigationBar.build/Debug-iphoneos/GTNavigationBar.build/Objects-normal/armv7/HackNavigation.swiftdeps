@@ -1,0 +1,688 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AutoHideNavigationBar"
+provides-nominal:
+- "P15GTNavigationBar21AutoHideNavigationBar"
+provides-member:
+- ["P15GTNavigationBar21AutoHideNavigationBar", ""]
+- ["CSo22UINavigationController", ""]
+- ["CSo7UIImage", ""]
+- ["CSo22UINavigationController", "setAppearence"]
+- ["CSo22UINavigationController", "setAutoHideNavigationBar"]
+- ["CSo7UIImage", "scaleImageToSize"]
+provides-dynamic-lookup:
+- "scaleImageToSize"
+- "setAppearence"
+- "setAutoHideNavigationBar"
+depends-top-level:
+- !private "-"
+- !private "/"
+- !private ">"
+- "AssignmentPrecedence"
+- "AutoHideNavigationBar"
+- !private "BooleanLiteralType"
+- !private "CGAffineTransform"
+- !private "CGRect"
+- "CGSize"
+- !private "StringLiteralType"
+- !private "UIBarButtonItem"
+- !private "UIGraphicsBeginImageContextWithOptions"
+- !private "UIGraphicsEndImageContext"
+- !private "UIGraphicsGetImageFromCurrentImageContext"
+- "UIImage"
+- !private "UINavigationBar"
+- "UINavigationController"
+- !private "UIOffsetMake"
+- "UIScrollView"
+- !private "_ImageLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "CGAffineTransform"]
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "CGSize"]
+- !private ["Ps9AnyObject", "UIBarButtonItem"]
+- !private ["Ps9AnyObject", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["Ps9AnyObject", "UIGraphicsEndImageContext"]
+- !private ["Ps9AnyObject", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps9AnyObject", "UINavigationBar"]
+- !private ["Ps9AnyObject", "UIOffsetMake"]
+- !private ["Ps9AnyObject", "appearance"]
+- !private ["Ps9AnyObject", "backIndicatorImage"]
+- !private ["Ps9AnyObject", "backIndicatorTransitionMaskImage"]
+- !private ["Ps9AnyObject", "black"]
+- !private ["Ps9AnyObject", "draw"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "navigationBar"]
+- !private ["Ps9AnyObject", "rx"]
+- !private ["Ps9AnyObject", "scaleImageToSize"]
+- !private ["Ps9AnyObject", "setBackButtonTitlePositionAdjustment"]
+- !private ["Ps9AnyObject", "subscribe"]
+- !private ["Ps9AnyObject", "tintColor"]
+- !private ["Ps9AnyObject", "transform"]
+- ["P15GTNavigationBar21AutoHideNavigationBar", "UIScrollView"]
+- ["P15GTNavigationBar21AutoHideNavigationBar", "setAutoHide"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSo15CALayerDelegate", "appearance"]
+- !private ["PSo15CALayerDelegate", "backIndicatorImage"]
+- !private ["PSo15CALayerDelegate", "backIndicatorTransitionMaskImage"]
+- !private ["PSo15CALayerDelegate", "rx"]
+- !private ["PSo15CALayerDelegate", "tintColor"]
+- !private ["PSo15CALayerDelegate", "transform"]
+- !private ["VSC17CGAffineTransform", "init"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["VSC6CGRect", "init"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "init"]
+- !private ["VSC6CGSize", "width"]
+- !private ["Ps7CVarArg", "CGAffineTransform"]
+- !private ["Ps7CVarArg", "CGRect"]
+- !private ["Ps7CVarArg", "CGSize"]
+- !private ["Ps7CVarArg", "UIBarButtonItem"]
+- !private ["Ps7CVarArg", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["Ps7CVarArg", "UIGraphicsEndImageContext"]
+- !private ["Ps7CVarArg", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps7CVarArg", "UINavigationBar"]
+- !private ["Ps7CVarArg", "UIOffsetMake"]
+- !private ["Ps7CVarArg", "appearance"]
+- !private ["Ps7CVarArg", "backIndicatorImage"]
+- !private ["Ps7CVarArg", "backIndicatorTransitionMaskImage"]
+- !private ["Ps7CVarArg", "black"]
+- !private ["Ps7CVarArg", "draw"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "navigationBar"]
+- !private ["Ps7CVarArg", "rx"]
+- !private ["Ps7CVarArg", "scaleImageToSize"]
+- !private ["Ps7CVarArg", "setBackButtonTitlePositionAdjustment"]
+- !private ["Ps7CVarArg", "tintColor"]
+- !private ["Ps7CVarArg", "transform"]
+- !private ["Ps10Comparable", "init"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "height"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "init"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "width"]
+- !private ["P7SnapKit24ConstraintConstantTarget", "y"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "appearance"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "backIndicatorImage"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "backIndicatorTransitionMaskImage"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "height"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "init"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "rx"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "tintColor"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "transform"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "width"]
+- !private ["P7SnapKit25ConstraintRelatableTarget", "y"]
+- !private ["V7RxCocoa15ControlProperty", "takeUntil"]
+- !private ["P7RxCocoa19ControlPropertyType", "takeUntil"]
+- !private ["Ps28CustomDebugStringConvertible", "CGAffineTransform"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "CGSize"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBarButtonItem"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsEndImageContext"]
+- !private ["Ps28CustomDebugStringConvertible", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps28CustomDebugStringConvertible", "UINavigationBar"]
+- !private ["Ps28CustomDebugStringConvertible", "UIOffsetMake"]
+- !private ["Ps28CustomDebugStringConvertible", "appearance"]
+- !private ["Ps28CustomDebugStringConvertible", "backIndicatorImage"]
+- !private ["Ps28CustomDebugStringConvertible", "backIndicatorTransitionMaskImage"]
+- !private ["Ps28CustomDebugStringConvertible", "black"]
+- !private ["Ps28CustomDebugStringConvertible", "draw"]
+- !private ["Ps28CustomDebugStringConvertible", "height"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "navigationBar"]
+- !private ["Ps28CustomDebugStringConvertible", "rx"]
+- !private ["Ps28CustomDebugStringConvertible", "scaleImageToSize"]
+- !private ["Ps28CustomDebugStringConvertible", "setBackButtonTitlePositionAdjustment"]
+- !private ["Ps28CustomDebugStringConvertible", "tintColor"]
+- !private ["Ps28CustomDebugStringConvertible", "transform"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "height"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "width"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "height"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "width"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "CGAffineTransform"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "CGSize"]
+- !private ["Ps23CustomStringConvertible", "UIBarButtonItem"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsEndImageContext"]
+- !private ["Ps23CustomStringConvertible", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps23CustomStringConvertible", "UINavigationBar"]
+- !private ["Ps23CustomStringConvertible", "UIOffsetMake"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "appearance"]
+- !private ["Ps23CustomStringConvertible", "backIndicatorImage"]
+- !private ["Ps23CustomStringConvertible", "backIndicatorTransitionMaskImage"]
+- !private ["Ps23CustomStringConvertible", "black"]
+- !private ["Ps23CustomStringConvertible", "draw"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "navigationBar"]
+- !private ["Ps23CustomStringConvertible", "rx"]
+- !private ["Ps23CustomStringConvertible", "scaleImageToSize"]
+- !private ["Ps23CustomStringConvertible", "setBackButtonTitlePositionAdjustment"]
+- !private ["Ps23CustomStringConvertible", "tintColor"]
+- !private ["Ps23CustomStringConvertible", "transform"]
+- !private ["Ps9Equatable", "CGAffineTransform"]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "CGSize"]
+- !private ["Ps9Equatable", "UIBarButtonItem"]
+- !private ["Ps9Equatable", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["Ps9Equatable", "UIGraphicsEndImageContext"]
+- !private ["Ps9Equatable", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps9Equatable", "UINavigationBar"]
+- !private ["Ps9Equatable", "UIOffsetMake"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "appearance"]
+- !private ["Ps9Equatable", "backIndicatorImage"]
+- !private ["Ps9Equatable", "backIndicatorTransitionMaskImage"]
+- !private ["Ps9Equatable", "black"]
+- !private ["Ps9Equatable", "default"]
+- !private ["Ps9Equatable", "draw"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "navigationBar"]
+- !private ["Ps9Equatable", "rx"]
+- !private ["Ps9Equatable", "scaleImageToSize"]
+- !private ["Ps9Equatable", "setBackButtonTitlePositionAdjustment"]
+- !private ["Ps9Equatable", "tintColor"]
+- !private ["Ps9Equatable", "transform"]
+- !private ["Ps9Equatable", "width"]
+- !private ["Ps9Equatable", "y"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps23ExpressibleByNilLiteral", "black"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CGAffineTransform"]
+- !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "CGSize"]
+- !private ["Ps8Hashable", "UIBarButtonItem"]
+- !private ["Ps8Hashable", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["Ps8Hashable", "UIGraphicsEndImageContext"]
+- !private ["Ps8Hashable", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps8Hashable", "UINavigationBar"]
+- !private ["Ps8Hashable", "UIOffsetMake"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "appearance"]
+- !private ["Ps8Hashable", "backIndicatorImage"]
+- !private ["Ps8Hashable", "backIndicatorTransitionMaskImage"]
+- !private ["Ps8Hashable", "black"]
+- !private ["Ps8Hashable", "default"]
+- !private ["Ps8Hashable", "draw"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "navigationBar"]
+- !private ["Ps8Hashable", "rx"]
+- !private ["Ps8Hashable", "scaleImageToSize"]
+- !private ["Ps8Hashable", "setBackButtonTitlePositionAdjustment"]
+- !private ["Ps8Hashable", "tintColor"]
+- !private ["Ps8Hashable", "transform"]
+- !private ["SQ", "black"]
+- !private ["P7RxCocoa16KVORepresentable", "_getBuiltinLogicValue"]
+- !private ["P7RxCocoa16KVORepresentable", "height"]
+- !private ["P7RxCocoa16KVORepresentable", "init"]
+- !private ["P7RxCocoa16KVORepresentable", "width"]
+- !private ["P7RxCocoa16KVORepresentable", "y"]
+- !private ["P7SnapKit20LayoutConstraintItem", "appearance"]
+- !private ["P7SnapKit20LayoutConstraintItem", "backIndicatorImage"]
+- !private ["P7SnapKit20LayoutConstraintItem", "backIndicatorTransitionMaskImage"]
+- !private ["P7SnapKit20LayoutConstraintItem", "rx"]
+- !private ["P7SnapKit20LayoutConstraintItem", "tintColor"]
+- !private ["P7SnapKit20LayoutConstraintItem", "transform"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "CGAffineTransform"]
+- !private ["PSo8NSCoding", "CGRect"]
+- !private ["PSo8NSCoding", "CGSize"]
+- !private ["PSo8NSCoding", "UIBarButtonItem"]
+- !private ["PSo8NSCoding", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["PSo8NSCoding", "UIGraphicsEndImageContext"]
+- !private ["PSo8NSCoding", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo8NSCoding", "UINavigationBar"]
+- !private ["PSo8NSCoding", "UIOffsetMake"]
+- !private ["PSo8NSCoding", "appearance"]
+- !private ["PSo8NSCoding", "backIndicatorImage"]
+- !private ["PSo8NSCoding", "backIndicatorTransitionMaskImage"]
+- !private ["PSo8NSCoding", "black"]
+- !private ["PSo8NSCoding", "draw"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "navigationBar"]
+- !private ["PSo8NSCoding", "rx"]
+- !private ["PSo8NSCoding", "scaleImageToSize"]
+- !private ["PSo8NSCoding", "setBackButtonTitlePositionAdjustment"]
+- !private ["PSo8NSCoding", "tintColor"]
+- !private ["PSo8NSCoding", "transform"]
+- !private ["PSo9NSCopying", "black"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "CGAffineTransform"]
+- !private ["PSo26NSExtensionRequestHandling", "CGSize"]
+- !private ["PSo26NSExtensionRequestHandling", "UIBarButtonItem"]
+- !private ["PSo26NSExtensionRequestHandling", "UINavigationBar"]
+- !private ["PSo26NSExtensionRequestHandling", "UIOffsetMake"]
+- !private ["PSo26NSExtensionRequestHandling", "navigationBar"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "CGAffineTransform"]
+- !private ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "CGSize"]
+- !private ["CSo8NSObject", "UIBarButtonItem"]
+- !private ["CSo8NSObject", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["CSo8NSObject", "UIGraphicsEndImageContext"]
+- !private ["CSo8NSObject", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["CSo8NSObject", "UIImage"]
+- !private ["CSo8NSObject", "UINavigationBar"]
+- !private ["CSo8NSObject", "UIOffsetMake"]
+- ["CSo8NSObject", "UIScrollView"]
+- !private ["CSo8NSObject", "appearance"]
+- !private ["CSo8NSObject", "backIndicatorImage"]
+- !private ["CSo8NSObject", "backIndicatorTransitionMaskImage"]
+- !private ["CSo8NSObject", "black"]
+- !private ["CSo8NSObject", "draw"]
+- !private ["CSo8NSObject", "navigationBar"]
+- !private ["CSo8NSObject", "rx"]
+- ["CSo8NSObject", "scaleImageToSize"]
+- ["CSo8NSObject", "setAppearence"]
+- ["CSo8NSObject", "setAutoHideNavigationBar"]
+- !private ["CSo8NSObject", "setBackButtonTitlePositionAdjustment"]
+- !private ["CSo8NSObject", "tintColor"]
+- !private ["CSo8NSObject", "transform"]
+- !private ["PSo16NSObjectProtocol", "CGAffineTransform"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "CGSize"]
+- !private ["PSo16NSObjectProtocol", "UIBarButtonItem"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsEndImageContext"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo16NSObjectProtocol", "UINavigationBar"]
+- !private ["PSo16NSObjectProtocol", "UIOffsetMake"]
+- !private ["PSo16NSObjectProtocol", "appearance"]
+- !private ["PSo16NSObjectProtocol", "backIndicatorImage"]
+- !private ["PSo16NSObjectProtocol", "backIndicatorTransitionMaskImage"]
+- !private ["PSo16NSObjectProtocol", "black"]
+- !private ["PSo16NSObjectProtocol", "draw"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "navigationBar"]
+- !private ["PSo16NSObjectProtocol", "rx"]
+- !private ["PSo16NSObjectProtocol", "scaleImageToSize"]
+- !private ["PSo16NSObjectProtocol", "setBackButtonTitlePositionAdjustment"]
+- !private ["PSo16NSObjectProtocol", "tintColor"]
+- !private ["PSo16NSObjectProtocol", "transform"]
+- !private ["PSo14NSSecureCoding", "CGRect"]
+- !private ["PSo14NSSecureCoding", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["PSo14NSSecureCoding", "UIGraphicsEndImageContext"]
+- !private ["PSo14NSSecureCoding", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo14NSSecureCoding", "black"]
+- !private ["PSo14NSSecureCoding", "draw"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "scaleImageToSize"]
+- !private ["CSo8NSString", "init"]
+- !private ["C7RxSwift10Observable", "subscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", "subscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", "takeUntil"]
+- !private ["P7RxSwift14ObservableType", "subscribe"]
+- !private ["P7RxSwift14ObservableType", "takeUntil"]
+- !private ["P7RxSwift12ObserverType", "takeUntil"]
+- !private ["Ps16RawRepresentable", "default"]
+- !private ["V7RxSwift8Reactive", "contentOffset"]
+- !private ["V7RxSwift8Reactive", "deallocated"]
+- !private ["P7RxSwift18ReactiveCompatible", "CGAffineTransform"]
+- !private ["P7RxSwift18ReactiveCompatible", "CGRect"]
+- !private ["P7RxSwift18ReactiveCompatible", "CGSize"]
+- !private ["P7RxSwift18ReactiveCompatible", "UIBarButtonItem"]
+- !private ["P7RxSwift18ReactiveCompatible", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["P7RxSwift18ReactiveCompatible", "UIGraphicsEndImageContext"]
+- !private ["P7RxSwift18ReactiveCompatible", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["P7RxSwift18ReactiveCompatible", "UINavigationBar"]
+- !private ["P7RxSwift18ReactiveCompatible", "UIOffsetMake"]
+- !private ["P7RxSwift18ReactiveCompatible", "appearance"]
+- !private ["P7RxSwift18ReactiveCompatible", "backIndicatorImage"]
+- !private ["P7RxSwift18ReactiveCompatible", "backIndicatorTransitionMaskImage"]
+- !private ["P7RxSwift18ReactiveCompatible", "black"]
+- !private ["P7RxSwift18ReactiveCompatible", "draw"]
+- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "navigationBar"]
+- !private ["P7RxSwift18ReactiveCompatible", "rx"]
+- !private ["P7RxSwift18ReactiveCompatible", "scaleImageToSize"]
+- !private ["P7RxSwift18ReactiveCompatible", "setBackButtonTitlePositionAdjustment"]
+- !private ["P7RxSwift18ReactiveCompatible", "tintColor"]
+- !private ["P7RxSwift18ReactiveCompatible", "transform"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "CGRect"]
+- !private ["PSo29UIAccessibilityIdentification", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["PSo29UIAccessibilityIdentification", "UIGraphicsEndImageContext"]
+- !private ["PSo29UIAccessibilityIdentification", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["PSo29UIAccessibilityIdentification", "appearance"]
+- !private ["PSo29UIAccessibilityIdentification", "backIndicatorImage"]
+- !private ["PSo29UIAccessibilityIdentification", "backIndicatorTransitionMaskImage"]
+- !private ["PSo29UIAccessibilityIdentification", "draw"]
+- !private ["PSo29UIAccessibilityIdentification", "rx"]
+- !private ["PSo29UIAccessibilityIdentification", "scaleImageToSize"]
+- !private ["PSo29UIAccessibilityIdentification", "setBackButtonTitlePositionAdjustment"]
+- !private ["PSo29UIAccessibilityIdentification", "tintColor"]
+- !private ["PSo29UIAccessibilityIdentification", "transform"]
+- !private ["PSo12UIAppearance", "appearance"]
+- !private ["PSo12UIAppearance", "backIndicatorImage"]
+- !private ["PSo12UIAppearance", "backIndicatorTransitionMaskImage"]
+- !private ["PSo12UIAppearance", "rx"]
+- !private ["PSo12UIAppearance", "setBackButtonTitlePositionAdjustment"]
+- !private ["PSo12UIAppearance", "tintColor"]
+- !private ["PSo12UIAppearance", "transform"]
+- !private ["PSo21UIAppearanceContainer", "CGAffineTransform"]
+- !private ["PSo21UIAppearanceContainer", "CGSize"]
+- !private ["PSo21UIAppearanceContainer", "UIBarButtonItem"]
+- !private ["PSo21UIAppearanceContainer", "UINavigationBar"]
+- !private ["PSo21UIAppearanceContainer", "UIOffsetMake"]
+- !private ["PSo21UIAppearanceContainer", "appearance"]
+- !private ["PSo21UIAppearanceContainer", "backIndicatorImage"]
+- !private ["PSo21UIAppearanceContainer", "backIndicatorTransitionMaskImage"]
+- !private ["PSo21UIAppearanceContainer", "navigationBar"]
+- !private ["PSo21UIAppearanceContainer", "rx"]
+- !private ["PSo21UIAppearanceContainer", "tintColor"]
+- !private ["PSo21UIAppearanceContainer", "transform"]
+- !private ["CSo15UIBarButtonItem", "appearance"]
+- !private ["CSo15UIBarButtonItem", "setBackButtonTitlePositionAdjustment"]
+- !private ["CSo9UIBarItem", "appearance"]
+- !private ["CSo9UIBarItem", "setBackButtonTitlePositionAdjustment"]
+- !private ["OSC12UIBarMetrics", "default"]
+- !private ["PSo16UIBarPositioning", "appearance"]
+- !private ["PSo16UIBarPositioning", "backIndicatorImage"]
+- !private ["PSo16UIBarPositioning", "backIndicatorTransitionMaskImage"]
+- !private ["PSo16UIBarPositioning", "tintColor"]
+- !private ["PSo16UIBarPositioning", "transform"]
+- !private ["CSo7UIColor", "black"]
+- !private ["PSo18UIContentContainer", "CGAffineTransform"]
+- !private ["PSo18UIContentContainer", "CGSize"]
+- !private ["PSo18UIContentContainer", "UIBarButtonItem"]
+- !private ["PSo18UIContentContainer", "UINavigationBar"]
+- !private ["PSo18UIContentContainer", "UIOffsetMake"]
+- !private ["PSo18UIContentContainer", "navigationBar"]
+- !private ["PSo17UICoordinateSpace", "appearance"]
+- !private ["PSo17UICoordinateSpace", "backIndicatorImage"]
+- !private ["PSo17UICoordinateSpace", "backIndicatorTransitionMaskImage"]
+- !private ["PSo17UICoordinateSpace", "rx"]
+- !private ["PSo17UICoordinateSpace", "tintColor"]
+- !private ["PSo17UICoordinateSpace", "transform"]
+- !private ["PSo13UIDynamicItem", "appearance"]
+- !private ["PSo13UIDynamicItem", "backIndicatorImage"]
+- !private ["PSo13UIDynamicItem", "backIndicatorTransitionMaskImage"]
+- !private ["PSo13UIDynamicItem", "rx"]
+- !private ["PSo13UIDynamicItem", "tintColor"]
+- !private ["PSo13UIDynamicItem", "transform"]
+- !private ["PSo18UIFocusEnvironment", "CGAffineTransform"]
+- !private ["PSo18UIFocusEnvironment", "CGSize"]
+- !private ["PSo18UIFocusEnvironment", "UIBarButtonItem"]
+- !private ["PSo18UIFocusEnvironment", "UINavigationBar"]
+- !private ["PSo18UIFocusEnvironment", "UIOffsetMake"]
+- !private ["PSo18UIFocusEnvironment", "appearance"]
+- !private ["PSo18UIFocusEnvironment", "backIndicatorImage"]
+- !private ["PSo18UIFocusEnvironment", "backIndicatorTransitionMaskImage"]
+- !private ["PSo18UIFocusEnvironment", "navigationBar"]
+- !private ["PSo18UIFocusEnvironment", "rx"]
+- !private ["PSo18UIFocusEnvironment", "tintColor"]
+- !private ["PSo18UIFocusEnvironment", "transform"]
+- !private ["PSo11UIFocusItem", "appearance"]
+- !private ["PSo11UIFocusItem", "backIndicatorImage"]
+- !private ["PSo11UIFocusItem", "backIndicatorTransitionMaskImage"]
+- !private ["PSo11UIFocusItem", "rx"]
+- !private ["PSo11UIFocusItem", "tintColor"]
+- !private ["PSo11UIFocusItem", "transform"]
+- !private ["CSo7UIImage", "CGRect"]
+- ["CSo7UIImage", "CGSize"]
+- !private ["CSo7UIImage", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["CSo7UIImage", "UIGraphicsEndImageContext"]
+- !private ["CSo7UIImage", "UIGraphicsGetImageFromCurrentImageContext"]
+- ["CSo7UIImage", "UIImage"]
+- !private ["CSo7UIImage", "draw"]
+- ["CSo7UIImage", "scaleImageToSize"]
+- !private ["CSo15UINavigationBar", "appearance"]
+- !private ["CSo15UINavigationBar", "backIndicatorImage"]
+- !private ["CSo15UINavigationBar", "backIndicatorTransitionMaskImage"]
+- !private ["CSo15UINavigationBar", "tintColor"]
+- !private ["CSo15UINavigationBar", "transform"]
+- !private ["CSo22UINavigationController", "CGAffineTransform"]
+- !private ["CSo22UINavigationController", "CGSize"]
+- !private ["CSo22UINavigationController", "UIBarButtonItem"]
+- !private ["CSo22UINavigationController", "UINavigationBar"]
+- !private ["CSo22UINavigationController", "UIOffsetMake"]
+- ["CSo22UINavigationController", "UIScrollView"]
+- !private ["CSo22UINavigationController", "navigationBar"]
+- ["CSo22UINavigationController", "setAppearence"]
+- ["CSo22UINavigationController", "setAutoHideNavigationBar"]
+- !private ["CSo11UIResponder", "CGAffineTransform"]
+- !private ["CSo11UIResponder", "CGSize"]
+- !private ["CSo11UIResponder", "UIBarButtonItem"]
+- !private ["CSo11UIResponder", "UINavigationBar"]
+- !private ["CSo11UIResponder", "UIOffsetMake"]
+- ["CSo11UIResponder", "UIScrollView"]
+- !private ["CSo11UIResponder", "appearance"]
+- !private ["CSo11UIResponder", "backIndicatorImage"]
+- !private ["CSo11UIResponder", "backIndicatorTransitionMaskImage"]
+- !private ["CSo11UIResponder", "navigationBar"]
+- !private ["CSo11UIResponder", "rx"]
+- ["CSo11UIResponder", "setAppearence"]
+- ["CSo11UIResponder", "setAutoHideNavigationBar"]
+- !private ["CSo11UIResponder", "tintColor"]
+- !private ["CSo11UIResponder", "transform"]
+- !private ["PSo30UIResponderStandardEditActions", "CGAffineTransform"]
+- !private ["PSo30UIResponderStandardEditActions", "CGSize"]
+- !private ["PSo30UIResponderStandardEditActions", "UIBarButtonItem"]
+- !private ["PSo30UIResponderStandardEditActions", "UINavigationBar"]
+- !private ["PSo30UIResponderStandardEditActions", "UIOffsetMake"]
+- !private ["PSo30UIResponderStandardEditActions", "appearance"]
+- !private ["PSo30UIResponderStandardEditActions", "backIndicatorImage"]
+- !private ["PSo30UIResponderStandardEditActions", "backIndicatorTransitionMaskImage"]
+- !private ["PSo30UIResponderStandardEditActions", "navigationBar"]
+- !private ["PSo30UIResponderStandardEditActions", "rx"]
+- !private ["PSo30UIResponderStandardEditActions", "tintColor"]
+- !private ["PSo30UIResponderStandardEditActions", "transform"]
+- !private ["CSo12UIScrollView", "rx"]
+- !private ["PSo16UIStateRestoring", "CGAffineTransform"]
+- !private ["PSo16UIStateRestoring", "CGSize"]
+- !private ["PSo16UIStateRestoring", "UIBarButtonItem"]
+- !private ["PSo16UIStateRestoring", "UINavigationBar"]
+- !private ["PSo16UIStateRestoring", "UIOffsetMake"]
+- !private ["PSo16UIStateRestoring", "navigationBar"]
+- !private ["PSo18UITraitEnvironment", "CGAffineTransform"]
+- !private ["PSo18UITraitEnvironment", "CGSize"]
+- !private ["PSo18UITraitEnvironment", "UIBarButtonItem"]
+- !private ["PSo18UITraitEnvironment", "UINavigationBar"]
+- !private ["PSo18UITraitEnvironment", "UIOffsetMake"]
+- !private ["PSo18UITraitEnvironment", "appearance"]
+- !private ["PSo18UITraitEnvironment", "backIndicatorImage"]
+- !private ["PSo18UITraitEnvironment", "backIndicatorTransitionMaskImage"]
+- !private ["PSo18UITraitEnvironment", "navigationBar"]
+- !private ["PSo18UITraitEnvironment", "rx"]
+- !private ["PSo18UITraitEnvironment", "tintColor"]
+- !private ["PSo18UITraitEnvironment", "transform"]
+- !private ["CSo6UIView", "appearance"]
+- !private ["CSo6UIView", "backIndicatorImage"]
+- !private ["CSo6UIView", "backIndicatorTransitionMaskImage"]
+- !private ["CSo6UIView", "rx"]
+- !private ["CSo6UIView", "tintColor"]
+- !private ["CSo6UIView", "transform"]
+- !private ["CSo16UIViewController", "CGAffineTransform"]
+- !private ["CSo16UIViewController", "CGSize"]
+- !private ["CSo16UIViewController", "UIBarButtonItem"]
+- !private ["CSo16UIViewController", "UINavigationBar"]
+- !private ["CSo16UIViewController", "UIOffsetMake"]
+- ["CSo16UIViewController", "UIScrollView"]
+- !private ["CSo16UIViewController", "navigationBar"]
+- ["CSo16UIViewController", "setAppearence"]
+- ["CSo16UIViewController", "setAutoHideNavigationBar"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "appearance"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "backIndicatorImage"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "backIndicatorTransitionMaskImage"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rx"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "tintColor"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "transform"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByColorLiteral", "black"]
+- !private ["Ps26_ExpressibleByImageLiteral", "CGRect"]
+- !private ["Ps26_ExpressibleByImageLiteral", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["Ps26_ExpressibleByImageLiteral", "UIGraphicsEndImageContext"]
+- !private ["Ps26_ExpressibleByImageLiteral", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps26_ExpressibleByImageLiteral", "draw"]
+- !private ["Ps26_ExpressibleByImageLiteral", "scaleImageToSize"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CGAffineTransform"]
+- !private ["Ps9_Hashable", "CGRect"]
+- !private ["Ps9_Hashable", "CGSize"]
+- !private ["Ps9_Hashable", "UIBarButtonItem"]
+- !private ["Ps9_Hashable", "UIGraphicsBeginImageContextWithOptions"]
+- !private ["Ps9_Hashable", "UIGraphicsEndImageContext"]
+- !private ["Ps9_Hashable", "UIGraphicsGetImageFromCurrentImageContext"]
+- !private ["Ps9_Hashable", "UINavigationBar"]
+- !private ["Ps9_Hashable", "UIOffsetMake"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "appearance"]
+- !private ["Ps9_Hashable", "backIndicatorImage"]
+- !private ["Ps9_Hashable", "backIndicatorTransitionMaskImage"]
+- !private ["Ps9_Hashable", "black"]
+- !private ["Ps9_Hashable", "default"]
+- !private ["Ps9_Hashable", "draw"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "navigationBar"]
+- !private ["Ps9_Hashable", "rx"]
+- !private ["Ps9_Hashable", "scaleImageToSize"]
+- !private ["Ps9_Hashable", "setBackButtonTitlePositionAdjustment"]
+- !private ["Ps9_Hashable", "tintColor"]
+- !private ["Ps9_Hashable", "transform"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "black"]
+- !private ["Ps21_ObjectiveCBridgeable", "height"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "width"]
+- !private ["Ps21_ObjectiveCBridgeable", "y"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "P15GTNavigationBar21AutoHideNavigationBar"
+- !private "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "VSC17CGAffineTransform"
+- !private "VSC7CGPoint"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "P7SnapKit24ConstraintConstantTarget"
+- !private "P7SnapKit25ConstraintRelatableTarget"
+- !private "V7RxCocoa15ControlProperty"
+- !private "P7RxCocoa19ControlPropertyType"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps23ExpressibleByNilLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "SQ"
+- !private "P7RxCocoa16KVORepresentable"
+- !private "P7SnapKit20LayoutConstraintItem"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- !private "P7RxSwift12ObserverType"
+- !private "Ps16RawRepresentable"
+- !private "V7RxSwift8Reactive"
+- !private "P7RxSwift18ReactiveCompatible"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo15UIBarButtonItem"
+- !private "CSo9UIBarItem"
+- !private "OSC12UIBarMetrics"
+- !private "PSo16UIBarPositioning"
+- !private "CSo7UIColor"
+- !private "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo7UIImage"
+- !private "CSo15UINavigationBar"
+- "CSo22UINavigationController"
+- "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "CSo12UIScrollView"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByColorLiteral"
+- !private "Ps26_ExpressibleByImageLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm.swiftmodule"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm.swiftmodule"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/arm.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/SwiftOnoneSupport.swiftmodule"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/module.modulemap"
+interface-hash: "a7c9417fe91d3b92c27e1448f19ea188"

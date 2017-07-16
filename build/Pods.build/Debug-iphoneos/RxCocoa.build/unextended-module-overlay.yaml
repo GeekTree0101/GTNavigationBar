@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/vingle/Desktop/GTNavigationBar/build/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap',
+    }]
+  }]
+}

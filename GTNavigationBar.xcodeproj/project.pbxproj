@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		511C826AB51077CD1087658E /* Pods_GTNavigationBarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A9B61361102F72D81D76846 /* Pods_GTNavigationBarUITests.framework */; };
+		9B293C901F1A00540097E71D /* CatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B293C8E1F1A00540097E71D /* CatViewController.swift */; };
+		9B293C911F1A00540097E71D /* CatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B293C8F1F1A00540097E71D /* CatViewController.xib */; };
 		9B2F89651F19B96B004921EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2F89641F19B96B004921EA /* AppDelegate.swift */; };
 		9B2F89671F19B96B004921EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2F89661F19B96B004921EA /* ViewController.swift */; };
-		9B2F896A1F19B96B004921EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2F89681F19B96B004921EA /* Main.storyboard */; };
-		9B2F896C1F19B96B004921EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2F896B1F19B96B004921EA /* Assets.xcassets */; };
-		9B2F896F1F19B96B004921EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2F896D1F19B96B004921EA /* LaunchScreen.storyboard */; };
 		9B2F897A1F19B96B004921EA /* GTNavigationBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2F89791F19B96B004921EA /* GTNavigationBarUITests.swift */; };
+		9B2F89881F19BB73004921EA /* testTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2F89861F19BB73004921EA /* testTableViewCell.swift */; };
+		9B2F89891F19BB73004921EA /* testTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B2F89871F19BB73004921EA /* testTableViewCell.xib */; };
+		9B2F898B1F19BF4E004921EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2F898A1F19BF4E004921EA /* Assets.xcassets */; };
+		9B2F898D1F19C59A004921EA /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2F898C1F19C59A004921EA /* Cat.swift */; };
+		9BA451481F19EB2B005FB2F1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA451471F19EB2B005FB2F1 /* Launch Screen.storyboard */; };
+		9BA4514A1F19EC06005FB2F1 /* HackNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA451491F19EC06005FB2F1 /* HackNavigation.swift */; };
+		A9D1F663978A608B993DBBEE /* Pods_GTNavigationBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52BD2A7108108689E527CEEE /* Pods_GTNavigationBar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +33,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C3DFC68BCEEB916194D54F2 /* Pods-GTNavigationBarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTNavigationBarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTNavigationBarUITests/Pods-GTNavigationBarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		52BD2A7108108689E527CEEE /* Pods_GTNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A9B61361102F72D81D76846 /* Pods_GTNavigationBarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GTNavigationBarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A2335CE4DA6EFA2F99DA6E5 /* Pods-GTNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTNavigationBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTNavigationBar/Pods-GTNavigationBar.debug.xcconfig"; sourceTree = "<group>"; };
+		7B997550102AB3612D6D6BCA /* Pods-GTNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTNavigationBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-GTNavigationBar/Pods-GTNavigationBar.release.xcconfig"; sourceTree = "<group>"; };
+		7DBE602522C1B2FB0D963191 /* Pods-GTNavigationBarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GTNavigationBarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GTNavigationBarUITests/Pods-GTNavigationBarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B293C8E1F1A00540097E71D /* CatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatViewController.swift; sourceTree = "<group>"; };
+		9B293C8F1F1A00540097E71D /* CatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatViewController.xib; sourceTree = "<group>"; };
 		9B2F89611F19B96B004921EA /* GTNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2F89641F19B96B004921EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B2F89661F19B96B004921EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9B2F89691F19B96B004921EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9B2F896B1F19B96B004921EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9B2F896E1F19B96B004921EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B2F89701F19B96B004921EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B2F89751F19B96B004921EA /* GTNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2F89791F19B96B004921EA /* GTNavigationBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GTNavigationBarUITests.swift; sourceTree = "<group>"; };
 		9B2F897B1F19B96B004921EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B2F89861F19BB73004921EA /* testTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testTableViewCell.swift; sourceTree = "<group>"; };
+		9B2F89871F19BB73004921EA /* testTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testTableViewCell.xib; sourceTree = "<group>"; };
+		9B2F898A1F19BF4E004921EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B2F898C1F19C59A004921EA /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		9BA451471F19EB2B005FB2F1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9BA451491F19EC06005FB2F1 /* HackNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HackNavigation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9D1F663978A608B993DBBEE /* Pods_GTNavigationBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +69,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				511C826AB51077CD1087658E /* Pods_GTNavigationBarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1189F1970C6E17FFF4A16A29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52BD2A7108108689E527CEEE /* Pods_GTNavigationBar.framework */,
+				6A9B61361102F72D81D76846 /* Pods_GTNavigationBarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57C63A72B343BCAA05B742FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A2335CE4DA6EFA2F99DA6E5 /* Pods-GTNavigationBar.debug.xcconfig */,
+				7B997550102AB3612D6D6BCA /* Pods-GTNavigationBar.release.xcconfig */,
+				7DBE602522C1B2FB0D963191 /* Pods-GTNavigationBarUITests.debug.xcconfig */,
+				2C3DFC68BCEEB916194D54F2 /* Pods-GTNavigationBarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9B2F89581F19B96B004921EA = {
 			isa = PBXGroup;
 			children = (
 				9B2F89631F19B96B004921EA /* GTNavigationBar */,
 				9B2F89781F19B96B004921EA /* GTNavigationBarUITests */,
 				9B2F89621F19B96B004921EA /* Products */,
+				57C63A72B343BCAA05B742FD /* Pods */,
+				1189F1970C6E17FFF4A16A29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +119,17 @@
 		9B2F89631F19B96B004921EA /* GTNavigationBar */ = {
 			isa = PBXGroup;
 			children = (
+				9B2F898A1F19BF4E004921EA /* Assets.xcassets */,
 				9B2F89641F19B96B004921EA /* AppDelegate.swift */,
 				9B2F89661F19B96B004921EA /* ViewController.swift */,
-				9B2F89681F19B96B004921EA /* Main.storyboard */,
-				9B2F896B1F19B96B004921EA /* Assets.xcassets */,
-				9B2F896D1F19B96B004921EA /* LaunchScreen.storyboard */,
+				9B2F89861F19BB73004921EA /* testTableViewCell.swift */,
+				9B293C8E1F1A00540097E71D /* CatViewController.swift */,
+				9B293C8F1F1A00540097E71D /* CatViewController.xib */,
+				9B2F898C1F19C59A004921EA /* Cat.swift */,
+				9B2F89871F19BB73004921EA /* testTableViewCell.xib */,
 				9B2F89701F19B96B004921EA /* Info.plist */,
+				9BA451471F19EB2B005FB2F1 /* Launch Screen.storyboard */,
+				9BA451491F19EC06005FB2F1 /* HackNavigation.swift */,
 			);
 			path = GTNavigationBar;
 			sourceTree = "<group>";
@@ -103,9 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B2F897E1F19B96B004921EA /* Build configuration list for PBXNativeTarget "GTNavigationBar" */;
 			buildPhases = (
+				18FDAF202B1D992F1B2EFC7F /* [CP] Check Pods Manifest.lock */,
 				9B2F895D1F19B96B004921EA /* Sources */,
 				9B2F895E1F19B96B004921EA /* Frameworks */,
 				9B2F895F1F19B96B004921EA /* Resources */,
+				E8A35D7F28B8E562665786D7 /* [CP] Embed Pods Frameworks */,
+				7689A4569B25EFBE41E8C3CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +170,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B2F89811F19B96B004921EA /* Build configuration list for PBXNativeTarget "GTNavigationBarUITests" */;
 			buildPhases = (
+				C1813429D8619D66A6773161 /* [CP] Check Pods Manifest.lock */,
 				9B2F89711F19B96B004921EA /* Sources */,
 				9B2F89721F19B96B004921EA /* Frameworks */,
 				9B2F89731F19B96B004921EA /* Resources */,
+				831C76A0025C6CB7D94F4D57 /* [CP] Embed Pods Frameworks */,
+				A80FF818AC46CAB70713CF35 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +232,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B2F896F1F19B96B004921EA /* LaunchScreen.storyboard in Resources */,
-				9B2F896C1F19B96B004921EA /* Assets.xcassets in Resources */,
-				9B2F896A1F19B96B004921EA /* Main.storyboard in Resources */,
+				9BA451481F19EB2B005FB2F1 /* Launch Screen.storyboard in Resources */,
+				9B293C911F1A00540097E71D /* CatViewController.xib in Resources */,
+				9B2F89891F19BB73004921EA /* testTableViewCell.xib in Resources */,
+				9B2F898B1F19BF4E004921EA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,13 +248,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18FDAF202B1D992F1B2EFC7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7689A4569B25EFBE41E8C3CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTNavigationBar/Pods-GTNavigationBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		831C76A0025C6CB7D94F4D57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTNavigationBarUITests/Pods-GTNavigationBarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A80FF818AC46CAB70713CF35 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTNavigationBarUITests/Pods-GTNavigationBarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1813429D8619D66A6773161 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A35D7F28B8E562665786D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GTNavigationBar/Pods-GTNavigationBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B2F895D1F19B96B004921EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2F898D1F19C59A004921EA /* Cat.swift in Sources */,
 				9B2F89671F19B96B004921EA /* ViewController.swift in Sources */,
+				9B2F89881F19BB73004921EA /* testTableViewCell.swift in Sources */,
 				9B2F89651F19B96B004921EA /* AppDelegate.swift in Sources */,
+				9BA4514A1F19EC06005FB2F1 /* HackNavigation.swift in Sources */,
+				9B293C901F1A00540097E71D /* CatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,25 +372,6 @@
 			targetProxy = 9B2F89761F19B96B004921EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9B2F89681F19B96B004921EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B2F89691F19B96B004921EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9B2F896D1F19B96B004921EA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9B2F896E1F19B96B004921EA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9B2F897C1F19B96B004921EA /* Debug */ = {
@@ -337,9 +469,11 @@
 		};
 		9B2F897F1F19B96B004921EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A2335CE4DA6EFA2F99DA6E5 /* Pods-GTNavigationBar.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GTNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = app.GTNavigationBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -349,9 +483,11 @@
 		};
 		9B2F89801F19B96B004921EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B997550102AB3612D6D6BCA /* Pods-GTNavigationBar.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GTNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = app.GTNavigationBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -361,6 +497,7 @@
 		};
 		9B2F89821F19B96B004921EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBE602522C1B2FB0D963191 /* Pods-GTNavigationBarUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GTNavigationBarUITests/Info.plist;
@@ -374,6 +511,7 @@
 		};
 		9B2F89831F19B96B004921EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3DFC68BCEEB916194D54F2 /* Pods-GTNavigationBarUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GTNavigationBarUITests/Info.plist;
@@ -404,6 +542,7 @@
 				9B2F89801F19B96B004921EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B2F89811F19B96B004921EA /* Build configuration list for PBXNativeTarget "GTNavigationBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +551,7 @@
 				9B2F89831F19B96B004921EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,220 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo12UIPickerView", ""]
+- ["V7RxSwift8Reactive", ""]
+- ["CSo12UIPickerView", "createRxDelegateProxy"]
+- ["V7RxSwift8Reactive", "delegate"]
+- ["V7RxSwift8Reactive", "itemSelected"]
+provides-dynamic-lookup:
+- "createRxDelegateProxy"
+depends-top-level:
+- "ControlEvent"
+- "DelegateProxy"
+- "Int"
+- "Reactive"
+- "RxPickerViewDelegateProxy"
+- "UIPickerView"
+- !private "UIPickerViewDelegate"
+- !private "castOrThrow"
+depends-member:
+- !private ["Ps9AnyObject", "RxPickerViewDelegateProxy"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "map"]
+- !private ["Ps9AnyObject", "methodInvoked"]
+- !private ["Ps9AnyObject", "proxyForObject"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["PSo15CALayerDelegate", "RxPickerViewDelegateProxy"]
+- !private ["Ps7CVarArg", "RxPickerViewDelegateProxy"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "methodInvoked"]
+- !private ["Ps7CVarArg", "proxyForObject"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["V7RxCocoa12ControlEvent", "init"]
+- !private ["P7RxCocoa16ControlEventType", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "RxPickerViewDelegateProxy"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "methodInvoked"]
+- !private ["Ps28CustomDebugStringConvertible", "proxyForObject"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "RxPickerViewDelegateProxy"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "methodInvoked"]
+- !private ["Ps23CustomStringConvertible", "proxyForObject"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["C7RxCocoa13DelegateProxy", "init"]
+- !private ["C7RxCocoa13DelegateProxy", "methodInvoked"]
+- !private ["C7RxCocoa13DelegateProxy", "proxyForObject"]
+- !private ["P7RxCocoa17DelegateProxyType", "init"]
+- !private ["P7RxCocoa17DelegateProxyType", "proxyForObject"]
+- !private ["Ps9Equatable", "RxPickerViewDelegateProxy"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "methodInvoked"]
+- !private ["Ps9Equatable", "proxyForObject"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps8Hashable", "RxPickerViewDelegateProxy"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "methodInvoked"]
+- !private ["Ps8Hashable", "proxyForObject"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["PSo8NSCoding", "RxPickerViewDelegateProxy"]
+- ["CSo8NSObject", "RxPickerViewDelegateProxy"]
+- ["CSo8NSObject", "createRxDelegateProxy"]
+- !private ["CSo8NSObject", "methodInvoked"]
+- !private ["CSo8NSObject", "proxyForObject"]
+- !private ["PSo16NSObjectProtocol", "RxPickerViewDelegateProxy"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "methodInvoked"]
+- !private ["PSo16NSObjectProtocol", "pickerView"]
+- !private ["PSo16NSObjectProtocol", "proxyForObject"]
+- !private ["C7RxSwift10Observable", "map"]
+- !private ["P7RxSwift25ObservableConvertibleType", "init"]
+- !private ["P7RxSwift25ObservableConvertibleType", "map"]
+- !private ["P7RxSwift14ObservableType", "init"]
+- !private ["P7RxSwift14ObservableType", "map"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- ["V7RxSwift8Reactive", "ControlEvent"]
+- ["V7RxSwift8Reactive", "DelegateProxy"]
+- ["V7RxSwift8Reactive", "Int"]
+- !private ["V7RxSwift8Reactive", "RxPickerViewDelegateProxy"]
+- ["V7RxSwift8Reactive", "UIPickerView"]
+- !private ["V7RxSwift8Reactive", "UIPickerViewDelegate"]
+- !private ["V7RxSwift8Reactive", "base"]
+- !private ["V7RxSwift8Reactive", "castOrThrow"]
+- ["V7RxSwift8Reactive", "delegate"]
+- ["V7RxSwift8Reactive", "itemSelected"]
+- !private ["P7RxSwift18ReactiveCompatible", "RxPickerViewDelegateProxy"]
+- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "methodInvoked"]
+- !private ["P7RxSwift18ReactiveCompatible", "proxyForObject"]
+- !private ["C7RxCocoa25RxPickerViewDelegateProxy", "deinit"]
+- !private ["C7RxCocoa25RxPickerViewDelegateProxy", "init"]
+- !private ["C7RxCocoa25RxPickerViewDelegateProxy", "proxyForObject"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["PSo29UIAccessibilityIdentification", "RxPickerViewDelegateProxy"]
+- !private ["PSo12UIAppearance", "RxPickerViewDelegateProxy"]
+- !private ["PSo21UIAppearanceContainer", "RxPickerViewDelegateProxy"]
+- !private ["PSo17UICoordinateSpace", "RxPickerViewDelegateProxy"]
+- !private ["PSo13UIDynamicItem", "RxPickerViewDelegateProxy"]
+- !private ["PSo18UIFocusEnvironment", "RxPickerViewDelegateProxy"]
+- !private ["PSo11UIFocusItem", "RxPickerViewDelegateProxy"]
+- ["CSo12UIPickerView", "RxPickerViewDelegateProxy"]
+- ["CSo12UIPickerView", "createRxDelegateProxy"]
+- !private ["PSo20UIPickerViewDelegate", "init"]
+- !private ["PSo20UIPickerViewDelegate", "pickerView"]
+- !private ["PSo20UIPickerViewDelegate", "proxyForObject"]
+- ["CSo11UIResponder", "RxPickerViewDelegateProxy"]
+- ["CSo11UIResponder", "createRxDelegateProxy"]
+- !private ["PSo30UIResponderStandardEditActions", "RxPickerViewDelegateProxy"]
+- !private ["PSo18UITraitEnvironment", "RxPickerViewDelegateProxy"]
+- ["CSo6UIView", "RxPickerViewDelegateProxy"]
+- ["CSo6UIView", "createRxDelegateProxy"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps23_BidirectionalIndexable", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "RxPickerViewDelegateProxy"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps9_Hashable", "RxPickerViewDelegateProxy"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "methodInvoked"]
+- !private ["Ps9_Hashable", "proxyForObject"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps17_MutableIndexable", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["CSo16_RXDelegateProxy", "methodInvoked"]
+- !private ["CSo16_RXDelegateProxy", "proxyForObject"]
+- !private ["Ps22_RandomAccessIndexable", "subscript"]
+- !private ["Ps26_RangeReplaceableIndexable", "subscript"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "PSo15CALayerDelegate"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "V7RxCocoa12ControlEvent"
+- !private "P7RxCocoa16ControlEventType"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "C7RxCocoa13DelegateProxy"
+- !private "P7RxCocoa17DelegateProxyType"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps8Hashable"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "V7RxSwift8Reactive"
+- !private "P7RxSwift18ReactiveCompatible"
+- !private "C7RxCocoa25RxPickerViewDelegateProxy"
+- !private "Ps8Sequence"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- "CSo12UIPickerView"
+- !private "PSo20UIPickerViewDelegate"
+- "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "CSo16_RXDelegateProxy"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreText.apinotesc"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/vingle/Desktop/GTNavigationBar/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Pods.build/Debug-iphoneos/RxCocoa.build/unextended-module.modulemap"
+- "/Users/vingle/Desktop/vingle-ios/Pods/Fuzi/libxml2/module.modulemap"
+- "/Users/vingle/Desktop/GTNavigationBar/build/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+interface-hash: "81d97a14dbf3c25b1164817f75700926"
